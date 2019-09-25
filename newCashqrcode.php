@@ -81,6 +81,4 @@ function outputAppend($code, $batchId) {
     $value = $url.'?c='.$code;         //二维码内容
     QRcode::png($value, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
     $GLOBALS['zipArchive'][] = $filename;
-    //234
-//    file_put_contents($filename, "http://apii.silutianyu.com/api/wap/?c={$code}\r\n", FILE_APPEND);
 }

@@ -17,7 +17,7 @@ for ($a=0;$a<10011;$a++) {
     foreach ($code as $v) {
         //生成二维码图片
         $filename = 'cashqrcode/' . $v['id'] . '.png';
-        $value = $url.'?c='.$v['code'];         //二维码内容
+        $value = $url.'?c='.$v['code'];
         QRcode::png($value, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
     }
     exit;

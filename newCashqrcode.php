@@ -81,5 +81,4 @@ function outputAppend($code, $batchId) {
     $value = $url.'?c='.$code;         //二维码内容
     QRcode::png($value, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
     $GLOBALS['zipArchive'][] = $filename;
-    $a = 3;//dev分支//回退后
 }

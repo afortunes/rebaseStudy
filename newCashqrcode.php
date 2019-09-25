@@ -83,4 +83,5 @@ function outputAppend($code, $batchId) {
     $GLOBALS['zipArchive'][] = $filename;
     $a = 3;//dev分支
     $a = 2;//dev分支的二次修改
+    $a = 4;//master分支的第一次修改
 }

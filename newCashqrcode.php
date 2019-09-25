@@ -82,4 +82,7 @@ function outputAppend($code, $batchId) {
     QRcode::png($value, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
     $GLOBALS['zipArchive'][] = $filename;
     $a = 3;//dev分支
+    $a = 2;//dev分支的二次修改
+    $a = 7;//dev分支的三次修改222
+
 }

@@ -85,4 +85,5 @@ function outputAppend($code, $batchId) {
     $a = 2;//dev分支的二次修改
     $b = 6;//测试
     $a = 3;//dev分支//回退后
+    //dev测试新
 }

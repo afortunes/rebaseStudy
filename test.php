@@ -9,5 +9,6 @@ class test
 {
     public function test(){
 
+        $a = "dev的第一次的commit提交";
     }
 }

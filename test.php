@@ -11,6 +11,5 @@ class test
 
         $a = "dev的第一次的commit提交";
         $a = "dev的第二次的commit提交";
-        $a = "dev的第三次的commit提交";
     }
 }

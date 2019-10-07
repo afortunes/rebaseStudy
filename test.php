@@ -8,6 +8,8 @@
 class test
 {
     public function test(){
+        $a = "第一次修改的commit";
 
+        return $a;
     }
 }

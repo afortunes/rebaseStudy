@@ -9,6 +9,7 @@ class test
 {
     public function test(){
         $a = "第一次修改的commit";
+        $a = "第二次修改的commit";
 
         return $a;
     }
